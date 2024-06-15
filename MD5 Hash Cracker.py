@@ -8,7 +8,7 @@ print(banner)
 
 # Generamos una variable para almacenar la ruta y lectura del diccionario utilizado
 # Generamos una variable para solicitar al usuario el Hash que desee crackear
-archivo = open("common.txt", "r")
+archivo = open("500-worst-passwords.txt", "r")
 hash_solicitado = str(input('-> Introduce el Hash a crackear: '))
 
 # Creamos un bucle For que recorrerá cada línea del diccionario de contraseñas utilizado
